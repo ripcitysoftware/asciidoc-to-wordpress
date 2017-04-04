@@ -1,0 +1,20 @@
+= Asciidoc to Wordpress blog publisher
+Container that converts an asciidoc document into a Wordpress blog (in draft mode)
+
+== Usage
+
+----
+docker run -it --rm -v $(pwd):/documents asciidoc-wp example.adoc
+----
+
+== Configuration
+There is a configuration file required with the following 3 configuration variables:
+
+* URL: Wordpress XML_RPC URL (don't forget to append /xmlrpc.php)
+* USERNAME: Wordpress login name
+* PASSWORD: Wordpress password
+
+The file needs to be located within the current directory and needs to be named *blogpost*
+
+There is an example file with the following contents. Just rename it to *blogpost* and edit appropriately.
+

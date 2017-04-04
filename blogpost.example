@@ -1,0 +1,8 @@
+# Wordpress XML_RPC URL (don't forget to append /xmlrpc.php)
+URL = "https://blog.wordpress.example.com/xmlrpc.php"
+
+# Wordpress login name.
+USERNAME = "myuser"
+
+# Wordpress password.
+PASSWORD = "mypassword"
